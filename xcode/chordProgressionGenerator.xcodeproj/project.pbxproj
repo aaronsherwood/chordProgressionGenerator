@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,10 +14,20 @@
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		7CC873CC2EF84EFE86B9E2EF /* chordProgressionGenerator_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = DD7E38EDFE6444D29FAA4358 /* chordProgressionGenerator_Prefix.pch */; };
 		757D5EE07A47452F8F089344 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6318DAF3476B45C1BD7F1163 /* CinderApp.icns */; };
-		FFC8B035D09D4BDB8A3DD54C /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5737010DE3441A8F78DD21 /* Resources.h */; };
+		8A3984581842E02D007E9559 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3984571842E02D007E9559 /* CoreMIDI.framework */; };
+		8A39845A1842E034007E9559 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3984591842E034007E9559 /* CoreFoundation.framework */; };
+		8A39846C1842E136007E9559 /* RtMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3984651842E136007E9559 /* RtMidi.cpp */; };
+		8A39846D1842E136007E9559 /* MidiHub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3984681842E136007E9559 /* MidiHub.cpp */; };
+		8A39846E1842E136007E9559 /* MidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3984691842E136007E9559 /* MidiIn.cpp */; };
+		8A39846F1842E136007E9559 /* MidiMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A39846A1842E136007E9559 /* MidiMessage.cpp */; };
+		8A3984701842E136007E9559 /* MidiOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A39846B1842E136007E9559 /* MidiOut.cpp */; };
+		8A3BB00C1849AF96004DDEB7 /* chordGeneratorUI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A3BB00B1849AF96004DDEB7 /* chordGeneratorUI.jpg */; };
+		8A3BB00E1849B19B004DDEB7 /* chordGeneratorBackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A3BB00D1849B19B004DDEB7 /* chordGeneratorBackGround.jpg */; };
+		8A3BB0101849B38B004DDEB7 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3BB00F1849B38B004DDEB7 /* knob.png */; };
+		8A3BB0121849B76B004DDEB7 /* buttonGlow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3BB0111849B76B004DDEB7 /* buttonGlow.png */; };
+		8AABF5561849F31700F05F75 /* depressedbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AABF5551849F31700F05F75 /* depressedbutton.png */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		C7C18C89A2C847B6A46706B7 /* chordProgressionGeneratorApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 618381A7544249EF890D7A0A /* chordProgressionGeneratorApp.cpp */; };
 /* End PBXBuildFile section */
 
@@ -30,14 +40,43 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2AC0DD1A99BA4586B805AE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		618381A7544249EF890D7A0A /* chordProgressionGeneratorApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = chordProgressionGeneratorApp.cpp; path = ../src/chordProgressionGeneratorApp.cpp; sourceTree = "<group>"; };
+		6318DAF3476B45C1BD7F1163 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		8A3984561841B5EE007E9559 /* progression_database.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = progression_database.h; path = ../src/progression_database.h; sourceTree = "<group>"; };
+		8A3984571842E02D007E9559 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		8A3984591842E034007E9559 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8A39845D1842E136007E9559 /* MidiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiConstants.h; sourceTree = "<group>"; };
+		8A39845E1842E136007E9559 /* MidiExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiExceptions.h; sourceTree = "<group>"; };
+		8A39845F1842E136007E9559 /* MidiHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiHub.h; sourceTree = "<group>"; };
+		8A3984601842E136007E9559 /* MidiIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiIn.h; sourceTree = "<group>"; };
+		8A3984611842E136007E9559 /* MidiMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiMessage.h; sourceTree = "<group>"; };
+		8A3984621842E136007E9559 /* MidiOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiOut.h; sourceTree = "<group>"; };
+		8A3984641842E136007E9559 /* RtError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtError.h; sourceTree = "<group>"; };
+		8A3984651842E136007E9559 /* RtMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtMidi.cpp; sourceTree = "<group>"; };
+		8A3984661842E136007E9559 /* RtMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtMidi.h; sourceTree = "<group>"; };
+		8A3984681842E136007E9559 /* MidiHub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiHub.cpp; sourceTree = "<group>"; };
+		8A3984691842E136007E9559 /* MidiIn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiIn.cpp; sourceTree = "<group>"; };
+		8A39846A1842E136007E9559 /* MidiMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiMessage.cpp; sourceTree = "<group>"; };
+		8A39846B1842E136007E9559 /* MidiOut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiOut.cpp; sourceTree = "<group>"; };
+		8A3984711842E256007E9559 /* chordMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = chordMidi.h; path = ../src/chordMidi.h; sourceTree = "<group>"; };
+		8A3BB00918497793004DDEB7 /* upperStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = upperStructures.h; path = ../src/upperStructures.h; sourceTree = "<group>"; };
+		8A3BB00A1849A2A2004DDEB7 /* metro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = metro.h; sourceTree = "<group>"; };
+		8A3BB00B1849AF96004DDEB7 /* chordGeneratorUI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chordGeneratorUI.jpg; path = ../resources/chordGeneratorUI.jpg; sourceTree = "<group>"; };
+		8A3BB00D1849B19B004DDEB7 /* chordGeneratorBackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chordGeneratorBackGround.jpg; path = ../resources/chordGeneratorBackGround.jpg; sourceTree = "<group>"; };
+		8A3BB00F1849B38B004DDEB7 /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob.png; path = ../resources/knob.png; sourceTree = "<group>"; };
+		8A3BB0111849B76B004DDEB7 /* buttonGlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonGlow.png; path = ../resources/buttonGlow.png; sourceTree = "<group>"; };
+		8AABF5551849F31700F05F75 /* depressedbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = depressedbutton.png; path = ../resources/depressedbutton.png; sourceTree = "<group>"; };
+		8ABA99751849DE50006F72FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AD7A23218525C46009775F2 /* musicMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = musicMain.h; path = ../src/musicMain.h; sourceTree = "<group>"; };
+		8AD7A2331852B0CE009775F2 /* initialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = initialize.h; path = ../src/initialize.h; sourceTree = "<group>"; };
+		8AE094AA184CED6200BB1E7C /* Population.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Population.h; path = ../src/Population.h; sourceTree = "<group>"; };
+		8AE094AB184CF5F800BB1E7C /* modes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = modes.h; path = ../src/modes.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* chordProgressionGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chordProgressionGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		618381A7544249EF890D7A0A /* chordProgressionGeneratorApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/chordProgressionGeneratorApp.cpp; sourceTree = "<group>"; name = chordProgressionGeneratorApp.cpp; };
-		CD5737010DE3441A8F78DD21 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		6318DAF3476B45C1BD7F1163 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		2AC0DD1A99BA4586B805AE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		DD7E38EDFE6444D29FAA4358 /* chordProgressionGenerator_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = chordProgressionGenerator_Prefix.pch; sourceTree = "<group>"; name = chordProgressionGenerator_Prefix.pch; };
+		CD5737010DE3441A8F78DD21 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		DD7E38EDFE6444D29FAA4358 /* chordProgressionGenerator_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = chordProgressionGenerator_Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A39845A1842E034007E9559 /* CoreFoundation.framework in Frameworks */,
+				8A3984581842E02D007E9559 /* CoreMIDI.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
 				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
@@ -59,10 +100,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				8A39845B1842E136007E9559 /* Cinder-MIDI */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				8AE094AA184CED6200BB1E7C /* Population.h */,
 				618381A7544249EF890D7A0A /* chordProgressionGeneratorApp.cpp */,
+				8A3BB00A1849A2A2004DDEB7 /* metro.h */,
+				8A3BB00918497793004DDEB7 /* upperStructures.h */,
+				8AE094AB184CF5F800BB1E7C /* modes.h */,
+				8AD7A23218525C46009775F2 /* musicMain.h */,
+				8AD7A2331852B0CE009775F2 /* initialize.h */,
+				8A3984711842E256007E9559 /* chordMidi.h */,
+				8A3984561841B5EE007E9559 /* progression_database.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -102,6 +159,9 @@
 		29B97314FDCFA39411CA2CEA /* chordProgressionGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				8ABA99751849DE50006F72FC /* CoreGraphics.framework */,
+				8A3984591842E034007E9559 /* CoreFoundation.framework */,
+				8A3984571842E02D007E9559 /* CoreMIDI.framework */,
 				01B97315FEAEA392516A2CEA /* Blocks */,
 				29B97315FDCFA39411CA2CEA /* Headers */,
 				080E96DDFE201D6D7F000001 /* Source */,
@@ -110,13 +170,6 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = chordProgressionGenerator;
-			sourceTree = "<group>";
-		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
 			sourceTree = "<group>";
 		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
@@ -131,6 +184,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8AABF5551849F31700F05F75 /* depressedbutton.png */,
+				8A3BB0111849B76B004DDEB7 /* buttonGlow.png */,
+				8A3BB00F1849B38B004DDEB7 /* knob.png */,
+				8A3BB00D1849B19B004DDEB7 /* chordGeneratorBackGround.jpg */,
+				8A3BB00B1849AF96004DDEB7 /* chordGeneratorUI.jpg */,
 				6318DAF3476B45C1BD7F1163 /* CinderApp.icns */,
 				2AC0DD1A99BA4586B805AE92 /* Info.plist */,
 			);
@@ -144,6 +202,51 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A39845B1842E136007E9559 /* Cinder-MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				8A39845C1842E136007E9559 /* include */,
+				8A3984631842E136007E9559 /* libs */,
+				8A3984671842E136007E9559 /* src */,
+			);
+			name = "Cinder-MIDI";
+			path = "../include/Cinder-MIDI";
+			sourceTree = "<group>";
+		};
+		8A39845C1842E136007E9559 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8A39845D1842E136007E9559 /* MidiConstants.h */,
+				8A39845E1842E136007E9559 /* MidiExceptions.h */,
+				8A39845F1842E136007E9559 /* MidiHub.h */,
+				8A3984601842E136007E9559 /* MidiIn.h */,
+				8A3984611842E136007E9559 /* MidiMessage.h */,
+				8A3984621842E136007E9559 /* MidiOut.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8A3984631842E136007E9559 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8A3984641842E136007E9559 /* RtError.h */,
+				8A3984651842E136007E9559 /* RtMidi.cpp */,
+				8A3984661842E136007E9559 /* RtMidi.h */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		8A3984671842E136007E9559 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8A3984681842E136007E9559 /* MidiHub.cpp */,
+				8A3984691842E136007E9559 /* MidiIn.cpp */,
+				8A39846A1842E136007E9559 /* MidiMessage.cpp */,
+				8A39846B1842E136007E9559 /* MidiOut.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				757D5EE07A47452F8F089344 /* CinderApp.icns in Resources */,
+				8A3BB00C1849AF96004DDEB7 /* chordGeneratorUI.jpg in Resources */,
+				8A3BB00E1849B19B004DDEB7 /* chordGeneratorBackGround.jpg in Resources */,
+				8A3BB0101849B38B004DDEB7 /* knob.png in Resources */,
+				8A3BB0121849B76B004DDEB7 /* buttonGlow.png in Resources */,
+				8AABF5561849F31700F05F75 /* depressedbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7C18C89A2C847B6A46706B7 /* chordProgressionGeneratorApp.cpp in Sources */,
+				8A39846C1842E136007E9559 /* RtMidi.cpp in Sources */,
+				8A39846D1842E136007E9559 /* MidiHub.cpp in Sources */,
+				8A39846E1842E136007E9559 /* MidiIn.cpp in Sources */,
+				8A39846F1842E136007E9559 /* MidiMessage.cpp in Sources */,
+				8A3984701842E136007E9559 /* MidiOut.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,31 +330,37 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = chordProgressionGenerator_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = chordProgressionGenerator_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "-D__MACOSX_CORE__";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = chordProgressionGenerator;
-				WRAPPER_EXTENSION = app;
+				SDKROOT = macosx10.8;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -252,24 +371,27 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = chordProgressionGenerator_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = "";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = chordProgressionGenerator;
+				SDKROOT = macosx10.8;
 				STRIP_INSTALLED_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../../../Documents/cinder_0.8.5_mac";
+				CINDER_PATH = ../../../../../Documents/cinder_0.8.5_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -282,11 +404,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../../../Documents/cinder_0.8.5_mac";
+				CINDER_PATH = ../../../../../Documents/cinder_0.8.5_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";

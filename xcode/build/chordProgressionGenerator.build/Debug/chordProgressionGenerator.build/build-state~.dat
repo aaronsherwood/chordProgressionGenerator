@@ -1,0 +1,222 @@
+TchordProgressionGenerator
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/chordProgressionGenerator.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch.pth chordProgressionGenerator_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGeneratorApp.o /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051E584DF00000000000024F0
+t1373996255
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051E584DF0000000000024DD8
+t1373996255
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051E584DF00000000000060B4
+t1373996255
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051E584DF00000000000001E5
+t1373996255
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051E584DF000000000000E9A8
+t1373996255
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1B3B730000000000006560
+t1310407539
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004F9D0514000000000007CED0
+t1335690516
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005051800B000000000002D360
+t1347518475
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005234823900000000004B9FB0
+t1379172921
+s4956080
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../resources/CinderApp.icns
+c00000000529150570000000000070375
+t1385254999
+s459637
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp
+c000000005291515700000000000002B0
+t1385255255
+s688
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app
+t2
+s0
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/Info.plist
+t2
+s0
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/MacOS/chordProgressionGenerator
+t2
+s0
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGenerator.LinkFileList
+c000000005291515700000000000000CE
+t1385255255
+s206
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGeneratorApp.o
+t2
+s0
+
+N/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/chordProgressionGenerator_Prefix.pch
+c0000000052915057000000000000012D
+t1385254999
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000529150570000000000000462
+t1385254999
+s1122
+
+CBuild AST from /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7ea8bcd78841b841^64cfead78841b841^---0#1#0#--18"Check dependencies36"10D82D25-32C0-4548-9208-6345804E8B95-
+
+CCompileC ./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGeneratorApp.o /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s406948062.068986
+e406948062.899563
+r0
+xCompileC
+x./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGeneratorApp.o
+x/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp:18:13: error: implicit instantiation of undefined template 'std::__1::basic_fstream<char, std::__1::char_traits<char> >'
+o    fstream chords;
+o            ^
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iosfwd:134:27: note: template is declared here
+o    class _LIBCPP_VISIBLE basic_fstream;
+o                          ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cppdec711de8841b841^2447e6de8841b841^-508"/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp:18:13: error: implicit instantiation of undefined template 'std::__1::basic_fstream<char, std::__1::char_traits<char> >'    fstream chords;            ^/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iosfwd:134:27: note: template is declared here    class _LIBCPP_VISIBLE basic_fstream;                          ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@106"Implicit instantiation of undefined template 'std::__1::basic_fstream<char, std::__1::char_traits<char> >'-406948062#18446744073709551615#0#1(2@25"Template is declared here-406948062#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file://localhost/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/iosfwd0000000000000000^133#26#133#26#5240#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@123"file://localhost/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/src/chordProgressionGeneratorApp.cpp0000000000000000^17#12#17#12#338#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@132"file://localhost/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp0000000000000000^3840"CompileC ./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGeneratorApp.o ../src/chordProgressionGeneratorApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/chordProgressionGenerator-generated-files.hmap -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/chordProgressionGenerator-own-target-headers.hmap -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/chordProgressionGenerator-all-target-headers.hmap -iquote /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/chordProgressionGenerator-project-headers.hmap -iquote../../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/build/Debug/include -I../../../../../Documents/cinder_0.8.5_mac/boost -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/DerivedSources/i386 -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/DerivedSources -F/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/build/Debug -include /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch -MMD -MT dependencies -MF /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGeneratorApp.d --serialize-diagnostics /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGeneratorApp.dia -c /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../src/chordProgressionGeneratorApp.cpp -o /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/Objects-normal/i386/chordProgressionGeneratorApp.o36"44EA95F2-0588-44D3-977F-ADCEDB3437AE-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/chordProgressionGenerator.app/Contents/Resources/CinderApp.icns
+s406948056.028498
+e406948056.032156
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/chordProgressionGenerator.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy ./build/Debug/chordProgressionGenerator.app/Contents/Resources/CinderApp.icns3c6b07d88841b841^b03c08d88841b841^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/Resources/CinderApp.icns000000000080d041^558"CpResource ../resources/CinderApp.icns ./build/Debug/chordProgressionGenerator.app/Contents/Resources/CinderApp.icns    cd /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/../resources/CinderApp.icns /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/Resources36"EDFAD769-7982-4678-AC82-C425A9E0869D-
+
+CLd /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/MacOS/chordProgressionGenerator normal i386
+r0
+
+CProcessInfoPlistFile /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/Info.plist Info.plist
+s406948055.921692
+e406948056.020664
+r1
+xProcessInfoPlistFile
+x/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist2217ecd78841b841^d84905d88841b841^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/Info.plist0000000000000000^552"ProcessInfoPlistFile ./build/Debug/chordProgressionGenerator.app/Contents/Info.plist Info.plist    cd /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app/Contents/Info.plist36"37BDB03A-B9C9-41D3-A77E-EE203C7B5438-
+
+CProcessPCH++ /Users/aaronsherwood/Library/Developer/Xcode/DerivedData/chordProgressionGenerator-cdmknvanfkwctxglvnfkkaobbmdd/Index/PrecompiledHeaders/chordProgressionGenerator_Prefix-fangkqsbnriktecynlagjyktkqas_ast/chordProgressionGenerator_Prefix.pch.pth chordProgressionGenerator_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch.pth chordProgressionGenerator_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s406948056.040176
+e406948062.061997
+r1
+xProcessPCH++
+x/var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch.pth
+xchordProgressionGenerator_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile chordProgressionGenerator_Prefix.pchcb660ad88841b841^d7de0fde8841b841^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/chordProgressionGenerator_Prefix.pch0000000000000000^3680"ProcessPCH++ /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch.pth chordProgressionGenerator_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/chordProgressionGenerator-generated-files.hmap -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/chordProgressionGenerator-own-target-headers.hmap -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/chordProgressionGenerator-all-target-headers.hmap -iquote /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/chordProgressionGenerator-project-headers.hmap -iquote../../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/build/Debug/include -I../../../../../Documents/cinder_0.8.5_mac/boost -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/DerivedSources/i386 -I/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/chordProgressionGenerator.build/Debug/chordProgressionGenerator.build/DerivedSources -F/Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/build/Debug --serialize-diagnostics /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch.dia -c /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/chordProgressionGenerator_Prefix.pch -o /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/chordProgressionGenerator_Prefix-ampezlxntddwiyempxcyxhoioltp/chordProgressionGenerator_Prefix.pch.d36"5FC81742-7F5E-4306-8FB3-0957E7EBFACD-
+
+CTouch /Users/aaronsherwood/Dropbox/code/cinderApps/chordProgressionGenerator/xcode/./build/Debug/chordProgressionGenerator.app
+r0
+
